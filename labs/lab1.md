@@ -139,7 +139,7 @@ Try the following out. Some of the statements you run won't output anything.
 >>> kp.append("secret sauce")
 >>> kp.append("krabby patty")
 >>> kp.append("chum")
->>> kp.append("veggies")
+>>> kp.append("stuff")
 >>> kp.append("bottom bun")
 >>> kp
 >>> kp[0]
@@ -147,6 +147,8 @@ Try the following out. Some of the statements you run won't output anything.
 >>> kp[2]
 >>> kp[-1]
 >>> kp[-2]
+>>> kp[4] = "veggies"
+>>> kp
 >>> len(kp)
 >>> kp[len(kp)]
 >>> kp[len(kp) - 1]
