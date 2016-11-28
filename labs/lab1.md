@@ -157,8 +157,10 @@ Try the following out. Some of the statements you run won't output anything.
 >>> kp.count("chum")
 >>> kp.remove("chum")
 >>> kp.count("chum")
->>> seq = [5, 7, 1, 2, 8, 9, 0, 3, 4, 6]
+>>> seq = [5, 7, 1, 2, 9, 9, 0, 3, 4, 6]
 >>> seq.sort()
+>>> seq
+>>> seq[8] = seq[8] - 1
 >>> seq
 >>> seq[:5]
 >>> seq[5:]
