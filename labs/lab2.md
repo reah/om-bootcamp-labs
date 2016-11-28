@@ -287,6 +287,9 @@ What would `is_pythagorean(3, 4, 5)` output? How about `is_pythagorean(2, 5, 9)`
 How can we write that 22 line heads/tails code above into a 10 line function? Think about how we can add strings together.
 
 ## Lab Work
+
+![Work](http://i.giphy.com/l3uVRbeTOS6HTdFSw.gif)
+
 1) Write a function that reverses a list and name it `reverse`.
 ```
 >>> lst = [2, 6, 2, 4, 6, 8, 6, 5, 8, 9, 9, 9]
@@ -294,7 +297,7 @@ How can we write that 22 line heads/tails code above into a 10 line function? Th
 [9, 9, 9, 8, 5, 6, 8, 6, 4, 2, 6, 2]
 ```
 
-2) This exercise is a classic sotware engineering interview question. Write a function called `fizzbuzz` that prints the numbers from 0 to 99. But for multiples of 3, print out "Fizz" instead of the number and for the multiples of 5, print out "Buzz". For numbers that are divisible by both 3 and 5, print out "FizzBuzz".
+2) This exercise is a classic sotware engineering interview question. Write a function called `fizzbuzz` that prints the numbers from 0 to :100:. But for multiples of 3, print out "Fizz" instead of the number and for the multiples of 5, print out "Buzz". For numbers that are divisible by both 3 and 5, print out "FizzBuzz".
 ```
 >>> fizzbuzz()
 FizzBuzz
@@ -399,3 +402,5 @@ Fizz
 Fizz
 Buzz
 ```
+
+Congrats on finishing day 2!
