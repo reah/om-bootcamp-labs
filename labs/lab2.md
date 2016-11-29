@@ -48,6 +48,7 @@ etc.
 ```
 
 ![Patrick](http://i.giphy.com/l46CyJmS9KUbokzsI.gif)
+
 That's what this guy would do. Don't be this guy.
 
 This is where loops come in handy. As you can see, every operation here is very similar. If we could make a template for it, it would look something like this:
@@ -64,16 +65,21 @@ for i in range(0, 20):
     lst[i] = lst[i] * 2
 ```
 
-This tells Python "I want to have a variable named `i`. The first value `i` will take on is 0. Now run the code underneath the for-loop header. Afer you are done running all of the code under it, give `i` its next value. `i` should take on the numbers that range from 0 upto (but not including) 20."
+This tells Python the following:
+* I want to have a variable named `i`
+* The first value `i` will take on is 0
+* Now run the code underneath the for-loop header
+* Afer you are done running all of the code under it, give `i` its next value
+* `i` should take on the numbers that range from 0 upto (but not including) 20
 
-*The `0` in `range(0, 100)` is implied so next time you can simply type `range(100)` unless you want to start at somewhere other than `0`. Also, most of the time we don't know exactly how long a list is, so we can type `range(len(lst))` instead to have Python figure it out for us and iterate through every index regardless of how long the list is.*
+*The `0` in `range(0, 100)` is implied, so next time you can simply type `range(100)` unless you want to start at somewhere other than `0`. Also, most of the time we don't know exactly how long a list is, so we can type `range(len(lst))` to have Python iterate through the length of the list.*
 
 Let's go ahead and try this out. Open `lab2.py` in Sublime, clear out document, and type in the following:
 ```
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 print "BEFORE:", lst
 
-for i in range(0, 20):
+for i in range(len(lst)):
     lst[i] = lst[i] * 2
 
 print "AFTER:", lst
@@ -100,9 +106,11 @@ lst = new_lst
 print "AFTER:", lst
 ```
 
-Here, we don't use ranges or indices at all! In other words, we don't say `range(0, 20)` or have to even type `lst[i]`. We can directly bypass that step in Python by just typing `for VARIABLE in DATA STRUCTURE`.
+Here, we don't use ranges or indices at all! In other words, we don't use `range` or have to even type `lst[i]`. We can directly bypass that step in Python by just typing `for VARIABLE in DATA STRUCTURE`.
 
-Try this out too and understand each line.
+*If that doesn't make sense maybe this explanation will help. Before, we were assigning `i` to be 0, 1, 2,...len(lst)-1 and then using `i` to access the elements in `lst` by using it as an index like `lst[i]`. Now, we are directly assigning `i` to the values in `lst`.*
+
+Write this in Sublime, understand each line, and run it
 ```
 fruits = {"apples": 5, "peaches": 1, "mangoes": 5, "strawberries": 7, "bananas": 2}
 
@@ -121,7 +129,7 @@ odd = range(1, 100)[::2]
 zipped = []
 ```
 
-Here, `even` is 0, 2, 4, 6,...98 and `odd` is all 1, 3, 5, 9,...99. Now we want want `zipped` to be all the numbers from 0 to 99. How would you accomplish this using only 3 lines of code? *Hint: think about why it's called `zipped` and use a for-loop*
+Here, `even` is 0, 2, 4, 6,...98 and `odd` is all 1, 3, 5, 9,...99. Now, we'd like `zipped` to be all the numbers from 0 to 99. How would you accomplish this using only 3 lines of code? *Hint: think about why it's called `zipped` and use a for-loop*
 
 #### Extra Credit
 How would you do that using only 2 lines of code?
