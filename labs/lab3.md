@@ -54,8 +54,8 @@ If this shows an error, it means that `pip` hasn't been installed yet. Run `sudo
 
 Now we have installed the SDK for Python. To test this out, open an interactive Python shell in Terminal and run the following and make sure your output is similar to what the output is here:
 ```
->>> import watson-developer-cloud
->>> watson-developer-cloud
+>>> import watson_developer_cloud
+>>> watson_developer_cloud
 <module 'watson_developer_cloud' from '/Library/Python/2.7/site-packages/watson_developer_cloud/__init__.pyc'>
 ```
 If you see something resembling the last line there, then you're good to go!
