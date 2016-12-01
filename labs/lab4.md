@@ -31,6 +31,8 @@ Here is the *end-to-end workflow* for a user of this application:
 6. In the first tab type
 ```
 cd front-end
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install node
 npm i
 ``` 
 This is using a type of Javascript called Node.js. `npm` stands for "Node Package Manager". `npm i` is telling the Node Package Manager to install everything it needs to in order to run the front-end of our app. You only ever have to type this once, so if the app ever crashes, you don't need to run this command again. To start running the front-end server, type `npm start`.
