@@ -1,3 +1,5 @@
+go [here] (https://play.spotify.com/artist/5V6O1WhDu0Y7Ng8G7nLXuz?play=true&utm_source=open.spotify.com&utm_medium=open) and follow my music cause it's LIT. I'm serious. Your lab depends on it.
+
 # The Final Stretch
 
 ![Dog](http://i.giphy.com/fJdpdS5jaDje8.gif)
