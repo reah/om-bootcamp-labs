@@ -43,9 +43,9 @@ npm start
 In the second tab type the following:
 ```
 cd api
-pip install flask
-pip install flask-cors
-pip install python-twitter
+sudo pip install flask
+sudo pip install flask-cors
+sudo pip install python-twitter
 ```
 These commands help install the packages Python needs in order to run our back-end API. To actually start running the back-end server, type
 ```
